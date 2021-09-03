@@ -6,6 +6,6 @@ jobs:
         auth:
           username: gffryclrk
           password: $DOCKERHUB_PASSWORD
-        steps:
-          - checkout #
-          - run: echo "hello world"
+    steps:
+      - checkout #
+      - run: echo "hello world"
